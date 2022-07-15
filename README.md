@@ -1,3 +1,3 @@
-# Pick My Eats
+# ATA-Learn-And-Be-Curious-Project
 
-Random Restaurant Generator
+Follow the instructions in the course for completing the group LBC project.

@@ -2,6 +2,7 @@ package com.kenzie.restaurant.randomizer.controller;
 
 import com.kenzie.restaurant.randomizer.IntegrationTest;
 import com.kenzie.restaurant.randomizer.controller.model.ExampleCreateRequest;
+import com.kenzie.restaurant.randomizer.service.ExampleService;
 import com.kenzie.restaurant.randomizer.service.model.Example;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
