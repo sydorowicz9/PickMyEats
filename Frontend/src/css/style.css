@@ -1,0 +1,165 @@
+:root {
+    /* css variables: https://developer.mozilla.org/en-US/docs/Web/CSS/var */
+    --primary-color: #131921;
+    --secondary-color: #fff;
+    --error-color: rgba(194, 0, 0, 0.71);
+}
+
+.background {
+    background-color: #eaeded;
+    background-image: url("8106.jpg");
+    background-repeat: repeat;
+    background-size: 10%;
+    margin: 0;
+    counter-reset: section;
+}
+
+.header {
+    /* Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 0 20px;
+}
+
+.header_home {
+    font-size: 36px;
+    line-height: 40px;
+    height: 100px;
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.header_nav_link {
+    margin-left: 20px;
+    vertical-align: top;
+    line-height: 40px;
+}
+
+.about {
+    margin-left: 20px;
+}
+
+#reviewPageButton {
+    background: #C50D0D;
+    position:absolute;
+    margin-top: -21.5px;
+    margin-left: -13px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: 2px #D61616;
+    /*text-decoration: none;*/
+    color: white;
+
+}
+
+.button, button {
+    background: #C50D0D;
+    padding: 5px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    border: 1px;
+    border-color: #D61616;
+    cursor: pointer;
+}
+
+.button:hover, button:hover {
+    background: #9E0808;
+}
+
+#resultHeader {
+    display: inline;
+}
+
+.resultsButtons {
+    display: inline;
+    position:absolute;
+    margin-top: 4px;
+    margin-left: 0px;
+}
+
+#clearResultsButton {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#clearReviewResultsButton {
+    position:absolute;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.card {
+    border-radius: 15px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    margin: 20px;
+    padding: 10px 85px 30px 50px;
+}
+
+.validated-field:invalid {
+    outline: 2px solid var(--error-color);
+}
+.validated-field:focus:invalid {
+    color: var(--error-color);
+}
+
+.card-content {
+    max-width: 500px;
+}
+
+.card-content .form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+#concert-list li {
+    margin-bottom: 1rem;
+}
+
+.state {
+    display: none;
+}
+
+.state.active {
+    display: block;
+}
+
+.restaurantHours {
+    width: 200px;
+}
+
+.selectHours {
+    position: relative;
+}
+
+.selectHours select {
+    width: 100%;
+    font-weight: bold;
+}
+
+.overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#checkboxes {
+    display: none;
+    border: 1px #dadada solid;
+}
+
+#checkboxes label {
+    display: block;
+}
+
+#checkboxes label:hover {
+    background-color: #1e90ff;
+}
+
+
